@@ -1,14 +1,90 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Post View Controller-->
+        <scene sceneID="8au-VS-NRO">
+            <objects>
+                <viewController storyboardIdentifier="Post" id="Um3-bw-R8Q" customClass="PostViewController" customModule="Instagram2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iZ5-Vx-jHb"/>
+                        <viewControllerLayoutGuide type="bottom" id="iIv-p4-W7k"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6Eo-Qx-pyv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xmr-Kq-bla" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-761" y="-80"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="8fL-iO-Ra4">
+            <objects>
+                <viewController storyboardIdentifier="Login" id="1kI-f0-cTj" customClass="LoginViewController" customModule="Instagram2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rvm-hx-Sah"/>
+                        <viewControllerLayoutGuide type="bottom" id="rva-Xp-LIP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VMG-le-umj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2wu-ZH-Ned" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="54" y="-80"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="hnc-4y-LnA">
+            <objects>
+                <viewController storyboardIdentifier="Home" id="VXY-yk-14x" customClass="HomeViewController" customModule="Instagram2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vAu-ZY-zTa"/>
+                        <viewControllerLayoutGuide type="bottom" id="YjC-lx-oTv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XIr-3M-5Ju">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JFh-f6-c8V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1471" y="-80"/>
+        </scene>
+        <!--Image Select View Controller-->
+        <scene sceneID="GwP-RU-EAO">
+            <objects>
+                <viewController storyboardIdentifier="ImageSelect" id="Ibc-2P-Js3" customClass="ImageSelectViewController" customModule="Instagram2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="R11-pv-W5c"/>
+                        <viewControllerLayoutGuide type="bottom" id="bW8-f1-JjY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UX2-OP-Edc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oWe-na-uhA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2188" y="-80"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Instagram2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -21,6 +97,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-1510" y="-79"/>
+        </scene>
+        <!--Setting View Controller-->
+        <scene sceneID="VN5-Zg-hJB">
+            <objects>
+                <viewController storyboardIdentifier="Setting" id="aou-K7-Sxm" customClass="SettingViewController" customModule="Instagram2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dhc-4Y-VLd"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sbe-ku-Bm4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gYo-d4-fBf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="enO-Gt-n3Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="770" y="-80"/>
         </scene>
     </scenes>
 </document>
